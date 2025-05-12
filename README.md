@@ -39,6 +39,23 @@ Use Case Ideas:
 - Custom voice launcher for web apps or links
 - Expandable into a full voice-assistant
 
+Steps to Convert Python Script to EXE:
+---------------
+1. Install PyInstaller:
+   Run the following command in your terminal or command prompt:
+   pip install pyinstaller
+
+2. Convert Python Script to EXE:
+   Navigate to the folder where your Python file (e.g., voice.py) is located.
+   Run this command:
+   pyinstaller --onefile --noconsole voice.py
+
+3. Find your EXE:
+   After the command runs, go to the "dist" folder in your project directory.
+   You'll find your EXE file there.
+
+That's it! You've successfully converted your Python script to an executable file.
+
 This project is built for educational purposes and to help you explore speech automation in a fun and direct way.
 Project Credits:  
 - Created by BackgroundCharacter101
